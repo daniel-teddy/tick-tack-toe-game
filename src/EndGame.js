@@ -11,7 +11,9 @@ function EndGame({ clearHistory, winCount, restartGame, player, draw }) {
         <br />
         B's WINS: {winCount.B}
       </span>
-
+    <p>
+      the loser has to start the next round
+    </p>
       <button className="btn" onClick={restartGame}>
         Resatrt Game
       </button>
