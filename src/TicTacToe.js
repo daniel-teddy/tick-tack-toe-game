@@ -34,7 +34,7 @@ function TicTacToe() {
         ) {
           setGameFinished(true);
           setwinCount({ ...winCount, A: winCount.A + 1 });
-          console.log("Teddy WON");
+          console.log("A WON");
           return;
         }
       }
@@ -48,7 +48,7 @@ function TicTacToe() {
         ) {
           setGameFinished(true);
           setwinCount({ ...winCount, B: winCount.B + 1 });
-          console.log("Opponent WON");
+          console.log("B WON");
           return;
         }
       }
@@ -98,6 +98,8 @@ function TicTacToe() {
         A's WINS: {winCount.A}
         <br />
         B's WINS: {winCount.B}
+    <br />
+    the loser has to start the next round
       </span>
       {gameFinished && (
         <EndGame
