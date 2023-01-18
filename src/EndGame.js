@@ -10,7 +10,7 @@ function EndGame({ clearHistory, winCount, restartGame, player, draw }) {
         A's WINS: {winCount.A}
         <br />
         B's WINS: {winCount.B}
-       
+       <br/>
       the loser has to start the next round
       </span>
     <p>
